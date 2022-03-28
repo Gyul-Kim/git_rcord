@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@media (max-width:1400px) {
+    header .lnb li a {font-size:14px;}
+    header .lnb li {margin-right:25px;}
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {margin:0 3.5px;}
+    
+    .index .video .vid {width:80%;}
+}
+
+@media (max-width:1300px) {
+    .visual h1 span {font-size:19px;}
+    .visual h1 strong {font-size:80px;}
+
+    header .lnb li a {font-size:14px;}
+    header .lnb li {margin-right:25px;}
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {margin:0 3.5px;}
+    
+    #index .videoWrap .vid {width:80%!important;}
+
+    #index .rooms {height:1400px;}
+    #index .infoWrap h3 {left:2%;}
+    #index .infoWrap h3 span {font-size:16px;}
+    #index .infoWrap h3 strong {font-size:63px;}
+    #index .infoWrap h3 p {font-size:15px;}
+    #index .movie {width:450px; height:450px;}
+
+    #index .roomsWrap h3 span {font-size:15px;}
+    #index .roomsWrap h3 strong {font-size:85px;}
+    #index .roomsWrap h3 {padding:170px 120px;}
+    #index .roomsWrap {width:90%; margin:0 auto;}
+    #index .room_swiper .InBox {height:560px;}
+    #index .rooms_info .Box {width:430px;}
+
+    #index .rooms_info .Box h5 span {font-size:17px;}
+    #index .rooms_info .Box h5 strong {font-size:30px;}
+    #index .rooms_info .Box h5 p {font-size:15px;}
+    #index .rooms_info .Box a {font-size:15px;}
+    
+    #index .gallery {padding-top:0; height:1300px;}
+    #index .gallery h3 strong {font-size:75px;}
+    #index .gallery .view_up {width:90%; height:430px;}
+    #index .gallery .view_down .bottom {width:90%; height:430px; margin:1% auto;}
+
+
+    #index .reserve .reserveWrap {right:4%;}
+    #index .reserve .reserveWrap h3 strong {font-size:40px;}
+    #index .reserve .reserveWrap p {font-size:15px;}
+    #index .reserve .reserveWrap a {font-size:15px;}
+
+    footer .footerWrap .ft_info_menu {width:90%; margin:0 auto;}
+    footer .footerWrap .ft_info_menu li:first-of-type {flex:2;}
+    footer .footerWrap .ft_info_menu li:nth-of-type(2) {flex:3;}
+    footer .footerWrap .ft_info_menu li:nth-of-type(3) {flex:3;}
+    footer .footerWrap .ft_info_menu li {font-size:13px;}
+
+    #about .visual h1 {width:90%;}
+    #about .visual h1 span {font-size:19px;}
+    #about .visual h1 strong {font-size:80px;}
+    #about .scrolling .right {left:54%; }
+    #about .scrolling .right_img {width:65%;}
+
+    #about .scrolling .left h3 {font-size:35px;}
+    #about .scrolling .right h3 strong {font-size:35px;}
+    #about .scrolling .right h3 p {font-size:15px;}
+
+    #about .movieWrap {width:90%;}
+
+    #rooms .visual h1 {width:90%;}
+    #rooms .visual h1 span {font-size:19px; right:28%;}
+    #rooms .visual h1 strong {font-size:80px; text-align:center;}
+
+    #rooms .visual .tabs .tab a {font-size:19px;}
+    #rooms .notice h3 strong {font-size:30px;}
+    #rooms .notice h3 span {font-size:15px;}
+    #rooms .notice .noticeWrap {width:90%;}
+    #rooms .notice .Swipers .InBox {height:560px;}
+
+    #rooms .gallery .gallery_top .gallery_right .circle_wrap {width:450px; height:450px;}
+    #rooms .gallery .gallery_top .gallery_left {width:450px;}
+    #rooms .gallery .gallery_top .gallery_left ul {width:450px;}
+
+    #rooms .menu h3 strong {font-size:60px;}
+    #rooms .menu h3 span {font-size:20px;}
+    #rooms .menu .Swipers .InBox .swiper-slide span.ko {font-size:14px;}
+    #rooms .menu .Swipers .InBox .swiper-slide span.en {font-size:14px;}
+    #rooms .menu .Swipers .InBox .swiper-slide a.resv {font-size:14px;}
+
+    #camping .visual h1 {width:90%;}
+    #camping .visual h1 span {font-size:19px; right:20%;}
+    #camping .visual h1 strong {font-size:80px; text-align:center;}
+
+    #camping .facility .Swipers {width:90%; height:600px; margin:0 auto;}
+    #camping .facility .Swipers .InBox {height:560px;}
+
+    #cafe .visual h1 {width:90%;}
+    #cafe .visual h1 span {font-size:19px; right:20%}
+    #cafe .visual h1 strong {font-size:80px; text-align:center;}
+
+    #cafe .view_up {width:90%; height:430px;}
+    #cafe .view_down .bottom {width:90%; height:430px; margin:1% auto;}
+}

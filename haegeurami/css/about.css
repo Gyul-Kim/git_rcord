@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#about .visual h1 {left:50%; transform:translateX(-50%);}
+#about .visual h1 span {position:absolute; right:11%; font-size:19px; margin-bottom:30px;}
+#about .visual h1 strong {font-size:95px; margin:40px 0; opacity:0; transform:translateY(50%); transition:0.75s;}
+
+#about .info {position: relative; width:100%; max-width:1400px; height:1000px; margin:0 auto; padding:300px 0; overflow:hidden;}
+#about .info .about_circle {float:left; width:450px; height:450px; margin:0 auto; border-radius:50%;}
+#about .info .about_circle {background:url(https://gonylab8.speedgabia.com/heagrami/main/6.jpg) no-repeat 50% 50%; background-size:cover;}
+#about .info .about_info_txt1 {float:right; width:50%;}
+#about .info .about_info_txt1 h3 {text-align:center;}
+#about .info .about_info_txt1 h3 strong {display:block; font-size:42px; font-weight:600; margin-top:100px; font-family:'Namum Square';}
+#about .info .about_info_txt1 h3 p {display:block; color:#555555; font-size:25px; line-height:55px; margin-top:80px; font-family:'Namum Square';}
+
+#about .movie {position:relative; width:100%; height:800px; overflow:hidden;}
+#about .movie::before {background:url(http://gonylab8.speedgabia.com/heagrami/exterior/1.jpg) no-repeat 50% 50%; background-size:cover;}
+#about .movie::before {content:""; position:absolute; width:100%; height:100%; top:0; left:0; z-index:1; filter: blur(5px);}
+#about .movieWrap {position:relative; width:100%; height:100%; max-width:1400px; margin:0 auto; z-index:2; opacity:0; transform:translateY(15%); transition:1.25s;}
+#about .movie .about_square {position:absolute; width:100%; height:60vh; min-height:560px; top:50%; transform:translateY(-50%); overflow: hidden;}
+#about .movie .about_square iframe {position:absolute; width:100%; height:100%;}
+#about .movie .about_info_txt1 {float:right;}
+#about .movie .about_info_txt1 h3 {color:#fff; text-align:center; margin-top:250px;}
+#about .movie .about_info_txt1 h3 strong {font-size:43px; font-weight:600; font-family:'Namum Square';}
+#about .movie .about_info_txt1 h3 .line {width:1px; height:40px; background:#fff; margin:25px auto;}
+#about .movie .about_info_txt1 h3 p {font-size:25px; line-height:45px; font-family:'Namum Square';}
+
+#about .scrolling {position:relative; width:100%; max-width:1400px; margin:0 auto; height:1800px; overflow:visible;}
+#about .scrolling > div {position:absolute; width:46%; height:100%; top:0; transition:1.75s;}
+#about .scrolling .left {left:0; opacity:0; transform:translateY(15%);}
+#about .scrolling .left h3 {display:block; width:70%; font-size:40px; color:#444444; font-family:'Namum Square'; float:right; text-align:center; margin:400px 0 100px;}
+#about .scrolling .left h3 b {display: block; font-family:'Nanum Square'; line-height:2; text-align:center;}
+#about .scrolling .left_img {position:relative; width:70%; height:90%; max-width:600px; max-height:900px; float:right;}
+#about .scrolling .left_img {background:url(http://gonylab8.speedgabia.com/heagrami/exterior/6.jpg) no-repeat 30% 50%; background-size:cover;}
+#about .scrolling .bg {position:absolute; width:100%; height:100%; top:2%; left:3%; z-index:-1; border:1px solid #444;}
+
+#about .scrolling .right {left:60%; margin-top:300px; transform:translateX(25%); transform:translateY(-15%); opacity:0;}
+#about .scrolling .right h3 {width:70%; margin-top:130px; text-align:center;}
+#about .scrolling .right h3 strong {display:block; font-size:40px; color:#444; margin-bottom:30px; font-family:'Namum Square';}
+#about .scrolling .right h3 p {display: block; font-size:18px; font-family:'Namum Square'; line-height:40px; color:#444; text-align:center;}
+#about .scrolling .right_img {position:relative; width:70%; height:90%; max-width:600px; max-height:900px;}
+#about .scrolling .right_img {background:url(http://gonylab8.speedgabia.com/heagrami/exterior/5.jpg) no-repeat 50% 50%; background-size:cover;}
+
+#about .location {width:100%; max-width:1400px; height:1050px; margin:0 auto 150px; overflow:hidden;}
+#about .location h3 {text-align:center; margin:150px 0 90px;}
+#about .location h3 strong {font-size:42px; font-weight:600; font-family:'Namum Square'; color:#212121;}
+#about .location h3 > span {display:block; font-size:18px; font-family:'Namum Square'; color:#222; margin:30px 0 50px;}
+#about .location p {display:block; text-align:center; font-family:'Namum Square'; margin-top:30px; font-family:'Nanum Square';}
+#about .location p > span {display:block; font-size:18px; line-height:45px; font-family:'Nanum Square';}
+#about .location p > span b {font-weight:bold; font-family:'Nanum Square';}

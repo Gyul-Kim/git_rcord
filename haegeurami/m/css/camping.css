@@ -1,0 +1,48 @@
+@charset "utf-8";
+#camping .Slides .slide .MyFrame iframe {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/camping.jpg) no-repeat 50% 50%; background-size:cover;}
+
+#camping .visual h1 {width:100%; left:50%; transform:translateX(-50%);}
+#camping .visual h1 span {position:absolute; right:11%; font-size:17px; margin-bottom:30px; text-align:center;}
+#camping .visual h1 strong {font-size:50px; margin:40px 0; text-align:center;}
+#camping .visual_bg {position:absolute; top:0; left:0; width:100%; height:100%; background-color:#222; opacity:0.2; z-index:1; opacity:0; transform:translateY(50%); transition-delay:0.75s;}
+
+#camping .intro {position: relative; width:100%; height:830px; margin:0 auto; overflow:hidden;}
+#camping .intro  h3 {margin:100px 0 70px;}
+#camping .intro  h3 strong {display: block; text-align:center; font-size:30px; font-weight:600; font-family:'Namum Square'; margin-bottom:60px;}
+#camping .intro  h3 span {display: block;; text-align:center; font-size:15px; font-family:'Namum Square'; line-height:2.5;}
+#camping .intro .camping_circle {width:470px; height:470px; margin:0 auto; border-radius:50%; opacity:0; transform:scale(0.6); transition:1.5s;}
+#camping .intro .camping_circle {background:url(https://gonylab8.speedgabia.com/heagrami/camping/camp_map.jpg) no-repeat 50% 50%; background-size:cover;}
+/* #camping .intro .camping_info_txt1 {float:right; width:50%;}
+#camping .intro .camping_info_txt1 h3 {text-align:center;}
+#camping .intro .camping_info_txt1 h3 strong {display:block; font-size:42px; font-weight:600; margin-top:100px; font-family:'Namum Square';}
+#camping .intro .camping_info_txt1 h3 p {display:block; color:#555555; font-size:25px; line-height:55px; margin-top:80px; font-family:'Namum Square';}
+
+#camping .info {width:100%; max-width:1400px; height:1000px; margin:0 auto; overflow:hidden; margin-top:250px;} */
+#camping .info table {width:100%; height:250px; border:1px solid #c1b49f;}
+#camping .info table thead {background-color:#917035;}
+#camping .info table thead tr th {color:#fff; font-size:22px; font-weight:600; padding:20px 0; border:1px solid #c1b49f;}
+#camping .info table tbody tr th {color:#222; font-size:22px; font-weight:500; padding:20px 0; border:1px solid #c1b49f;}
+#camping .info table tbody tr th.peak {background:#ede4da}
+#camping .info table tbody tr th.number {vertical-align:middle;}
+
+#camping .info .map_left {width:50%; float:left; height:700px;}
+#camping .info .map_left img {display:block; width:700px; height:700px;}
+#camping .info .map_right {width:50%; float:left; padding:150px 0 0 70px;}
+#camping .info .map_right h3 {display:block;; font-size:44px; font-weight:600; color:#171717; text-align:center; font-family:'Namum Square';}
+#camping .info .map_right p {display:block; margin-top:50px;}
+#camping .info .map_right p span {display:block; font-size:26px; color:#555; text-align:left; line-height:55px; font-family:'Namum Square';}
+
+#camping .info ul {margin:50px 0; width:100%; clear:both; height:300px; padding: 70px 0;}
+#camping .info ul li {font-size:23px; color:#222; line-height:50px; list-style:none; font-family:'Namum Square';}
+
+#camping .facility {width:90%; height:100%; margin:100px auto 70px; overflow:hidden; z-index:50;}
+#camping .facilityWrap {width:83%; margin:0 auto;}
+#camping .facility .Swipers {width:100%; overflow:visible;}
+#camping .facility .Swipers .swiper-view {height:100%; z-index:50;}
+#camping .facility .Swipers .swiper-view .InBox {height:300px;}
+#camping .facility .Swipers .InBox .swiper-slide div {background-size:cover; margin-bottom:20px;}
+
+#camping .camp_swiper {overflow:visible;}
+#camping .camp_swiper .InBox {height:800px;}
+#camping .camp_swiper .swiper-button-next {background:url(../images/idx_next.png) no-repeat left top; width:40px; height:70px; top:50%; right:-50px; transform:translateY(-50%); z-index:60; margin-top:0;}
+#camping .camp_swiper .swiper-button-prev {background:url(../images/idx_prev.png) no-repeat left top; width:40px; height:70px; top:50%; left:-50px;  transform:translateY(-50%); z-index:60; margin-top:0;}

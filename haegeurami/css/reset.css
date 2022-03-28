@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'Nanum Square';
+	font-style: normal;
+	src: url('../fonts/NanumSquareR.ttf');
+}
+
+@font-face {
+	font-family: 'FuturaStd-Book';
+	font-style: normal;
+	src: url('../font/FuturaStd-Book.ttf');
+	src: url('../font/FuturaStd-Book.woff');
+}
+@font-face {
+	font-family: 'nanumbarungothicregular';
+	font-style: normal;
+	src: url('../font/nanumbarungothicregular.eot');
+	src: url('../font/nanumbarungothicregular.ttf');
+	src: url('../font/nanumbarungothicregular.woff');
+}
+@font-face {  
+	font-family: 'Didot';
+	font-style: normal;
+	src: url('../font/Didot\ Regular.ttf');
+}
+@font-face {
+	font-family: 'AppleSDGothicNeo';
+	font-style: normal;
+	src: url(../font/AppleSDGothicNeoR.ttf);
+}
+
+
+@font-face {
+	font-family: 'Anjel Script';
+	font-style: normal;
+	src: url(../fonts/Anjel\ Signature\ For\ Personal\ Use.ttf);
+}
+
+* {
+	margin:0;border:0;outline:0;padding:0;background:transparent;
+	font-family:'Nanum Square', 돋움, Dotum, sans-serif;
+	font-style:normal; font-weight:normal;vertical-align:baseline;
+	text-decoration: none; box-sizing: border-box;
+}
+/* 'FuturaStd-Book', */
+
+article, aside, details, figcaption, figure, 
+footer, menu, section {
+	display: block;
+}
+
+body					{line-height:1}
+ol,ul					{list-style:none}
+blockquote,q 			{quotes:none}
+blockquote:before,
+blockquote:after,
+q:before,q:after		{content:'';content:none}
+table					{border-collapse:collapse;border-spacing:0}
+hr						{display:none}
+a:link					{color:#222;text-decoration:none}
+a:visited				{color:#222;text-decoration:none}
+a:hover					{color:#222;text-decoration:none}
+a:active				{color:#222;text-decoration:none}
+.both					{clear:both}
+.clear					{width:auto}
+.clear:after			{content:"";display:block;clear:both;height:0;overflow:hidden}
+#skipnavi,.alt			{position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0;visibility:hidden;overflow:hidden}
+label					{vertical-align:middle;cursor:pointer}
+input					{vertical-align:middle}

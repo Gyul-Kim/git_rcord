@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* image */
+.rooms_01 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/1.jpg) no-repeat 50% 50%; background-size:cover;}
+.rooms_02 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/2.jpg) no-repeat 50% 50%; background-size:cover;}
+.rooms_03 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/3.jpg) no-repeat 50% 50%; background-size:cover;}
+.rooms_04 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/4.jpg) no-repeat 50% 50%; background-size:cover;}
+.rooms_05 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/5.jpg) no-repeat 50% 50%; background-size:cover;}
+.rooms_06 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/6.jpg) no-repeat 50% 50%; background-size:cover;}
+.rooms_07 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/7.jpg) no-repeat 50% 50%; background-size:cover;}
+.rooms_08 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/8.jpg) no-repeat 50% 50%; background-size:cover;}
+.rooms_09 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/9.jpg) no-repeat 50% 50%; background-size:cover;}
+.rooms_10 .Slides .slide .MyFrame {background:url(http://gonylab8.speedgabia.com/heagrami/m/thumbnail/10.jpg) no-repeat 50% 50%; background-size:cover;}
+
+#rooms .visual h1 {left:50%; transform:translateX(-50%);}
+#rooms .visual h1 span {position:absolute; top:-10%; right:11%; font-size:20px; text-shadow:2px 2px 2px rgb(0 0 0 / 15%);}
+#rooms .visual h1 strong {text-align:center; opacity:0; transform:translateY(15%); transition:0.75s;}
+#rooms .visual_bg {position:absolute; top:0; left:0; width:100%; height:100%; background-color:#222; opacity:0.2; z-index:1;}
+#rooms .visual .line {position:absolute; width:100%; height:120px; bottom:0;  z-index:2;}
+#rooms .visual .tabs {display:flex; width:100%;}
+#rooms .visual .tabs:first-of-type {border-bottom:1px solid #fff;}
+#rooms .visual .tabs .tab {flex:1; height:50%; float:left;}
+#rooms .visual .tabs .tab a {display:block; position:relative; font-size:18px; color:#fff; padding:20px 0; text-align:center; text-shadow:2px 2px 2px rgb(0 0 0 / 5%);}
+/* #rooms .visual .tabs .tab a:hover {margin-top:2px; transition:0.2s;} */
+#rooms .visual .tabs .tab a::before {content:""; position:absolute; width:1px; height:12px; top:43%; left:0; transform:translateX(-50%); background-color:#fff;}
+#rooms .visual .tabs .tab a:first-of-type::before {display:none}
+#rooms .visual .line:before {content:""; position:absolute; width:100%; height:100%; top:0; left:0; z-index:-1;  background-color:#fff; opacity:0.4;}
+
+#rooms .notice {width:100%; height:100%; overflow:hidden; z-index:50;}
+#rooms .notice .noticeWrap {width:85%; margin:0 auto;}
+#rooms .notice h3 {display:block; margin:70px auto; text-align:center; opacity:0; transform:translateY(15%); transition:1.25s;}
+#rooms .notice h3 strong {display:block; font-size:30px; font-weight:500; color:#555; margin-bottom:50px; font-family:'Namum Square';}
+#rooms .notice h3 span {display:block; font-size:15px; color:#555; line-height:2.5; font-family:'Namum Square';}
+#rooms .notice .Swipers {overflow:visible; opacity:0; transform:translateY(15%); transition:1.25s;}
+#rooms .notice .Swipers .InBox {height:340px;}
+#rooms .notice .Swipers .swiper-button-next {background:url(../images/idx_next.png) no-repeat left top; width:40px; height:70px; top:50%; right:-9%; transform:translateY(-50%); z-index:60; margin-top:0;}
+#rooms .notice .Swipers .swiper-button-prev {background:url(../images/idx_prev.png) no-repeat left top; width:40px; height:70px; top:50%; left:-9%;  transform:translateY(-50%); z-index:60; margin-top:0;}
+#rooms .notice .swiper-pagination {bottom:0;}
+#rooms .notice .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {margin:0 7px;}
+
+#rooms .gallery {width:100%; height:100%; margin:90px auto 0; overflow:visible; z-index:50;}
+#rooms .gallery .gallery_top {position:relative; width:100%;}
+#rooms .gallery .gallery_top .gallery_right {}
+#rooms .gallery .gallery_top .gallery_right .circle_wrap {position:relative; width:400px; height:400px; border-radius:50%; overflow:hidden; background-position:50%; background-repeat:no-repeat; background-size:cover; margin:40px auto 0;}
+#rooms .gallery .gallery_top .gallery_right .circle_wrap > div {display:block; position:absolute; top:-40%; width:120%; height:120%;}
+#rooms .gallery .gallery_top .gallery_right .circle_wrap::before {content:""; display:block; position:absolute; width:100%; height:0; z-index:-1; padding-top:96%;}
+
+#rooms .gallery .gallery_top .gallery_left {width:640px; margin:0 auto; opacity:0; transform:translateY(15%); transition:1.25s;}
+#rooms .gallery .gallery_top .gallery_left h3 {display:block; font-size:27px; font-weight:bold; font-family:'Namum Square'; color:#555; margin:20px 0 60px; text-align:center;}
+#rooms .gallery .gallery_top .gallery_left ul {width:500px; margin:0 auto;}
+#rooms .gallery .gallery_top .gallery_left > ul > li {margin:40px 0;}
+#rooms .gallery .gallery_top .gallery_left > ul > li .tl {display:inline-block; width:80px; font-size:14px; font-family:'Namum Square'; color:#555; font-weight:600; margin-right:40px;}
+#rooms .gallery .gallery_top .gallery_left > ul > li .tx {display:inline-block; font-size:14px; font-family:'Namum Square'; color:#555;}
+#rooms .gallery .gallery_top .gallery_left > ul li .tl:last-of-type {vertical-align:top;}
+#rooms .gallery .gallery_top .gallery_left > ul li ul.eq {overflow:hidden; width:50%; display:inline-block;}
+#rooms .gallery .gallery_top .gallery_left > ul li ul.eq li {float:left;margin-right:5px; font-size:14px; font-family:'Namum Square'; color:#555; line-height:2.5;}
+#rooms .gallery .gallery_top .gallery_left a.rsv_btn {display:block; width:240px; height:50px; margin:70px auto 0; text-align:center; line-height:3; color:#555; font-size:15px; font-family:'Namum Square'; border:1px solid #eee; border-radius:5px; background:#e8dbd0;}
+#rooms .gallery .gallery_top .gallery_left a.rsv_btn:hover {font-weight:600; padding-top:1px;}
+
+#rooms .gallery .gallery_bottom {width:100%; height:100%; margin:0 auto; overflow:hidden; z-index:50;}
+#rooms .gallery .gallery_bottom ul {width:100%; height:100%; overflow:hidden; margin:150px 0;}
+#rooms .gallery .gallery_bottom ul li {width:31%; float:left; margin:1%; background-size:cover;}
+
+#rooms .reserve {width:100%; overflow:hidden; margin-top:150px; border-radius:20px 20px 0 0;}
+#rooms .reserve table {width:100%; height:250px; border:1px solid #c1b49f;}
+#rooms .reserve table thead {background-color:#917035;}
+#rooms .reserve table thead tr th {color:#fff; font-size:22px; font-weight:600; padding:20px 0; border:1px solid #c1b49f;}
+#rooms .reserve table tbody tr th {color:#222; font-size:22px; font-weight:500; padding:20px 0; border:1px solid #c1b49f;}
+#rooms .reserve table tbody tr th.peak {background:#ede4da}
+#rooms .reserve table tbody tr th.number {vertical-align:middle;}
+#rooms .reserve ul {margin:50px 0;}
+#rooms .reserve ul li {font-size:23px; color:#222; line-height:50px; list-style:none;}
+
+#rooms .menu {position:relative; width:100%; height:800px; background:#e8dbd0; overflow:hidden; z-index:50; border-bottom:1px solid #444;}
+#rooms .menu h3 {display:block; position:absolute; width:100%; top:80px; left:50%; transform:translateX(-50%); color:#444;}
+#rooms .menu h3 strong {display:block; font-size:70px; text-align:center; font-family:'Anjel Script';}
+#rooms .menu h3 span {display:block; font-size:15px; font-family:'Namum Square'; text-align:center; margin-top:20px;}
+
+#rooms .menu .Swipers {position:absolute; width:100%; height:550px; top:33%; left:0; overflow:visible;}
+#rooms .menu .Swipers .swiper-view {height:100%; z-index:50;}
+#rooms .menu .Swipers .swiper-view .InBox {height:100%;}
+#rooms .menu .Swipers .InBox .swiper-slide div {background-size:cover; margin-bottom:20px; height:430px;}
+#rooms .menu .Swipers .InBox .swiper-slide span.en {font-size:20px; font-family:'Namum Square'; color:#444;}
+#rooms .menu .Swipers .InBox .swiper-slide span.ko {font-size:20px; font-family:'Namum Square'; color:#444;  margin-right:20px;}
+#rooms .menu .Swipers .InBox .swiper-slide a.resv {font-size:18px; font-family:'Namum Square'; float:right; text-decoration:underline; text-underline-position:under;}
+#rooms .menu .Swipers .InBox .swiper-slide a:hover {font-weight:500; padding-top:1.5px;}
+#rooms .menu .Swipers .InBox .swiper-slide {width:600px; margin-left:3.5%; }
+#rooms .menu .Swipers .InBox .swiper-slide > div {opacity:1;}
+
+#rooms .menu .Swipers .swiper-btn {top:-5%; right:0; width:150px; height:40px; left:unset; bottom:unset;}
+#rooms .menu .Swipers .swiper-button-next {background:url(../images/rooms_next.png) no-repeat left top; width:30px; height:30px; right:5%;}
+#rooms .menu .Swipers .swiper-button-prev {background:url(../images/rooms_prev.png) no-repeat left top; width:30px; height:30px; right:10%;}
+#rooms .menu .Swipers .swiper-pagination {bottom:9%; width:100%;}
+#rooms .menu .Swipers .swiper-pagination-bullet {background:url(../images/rooms_off.png) no-repeat left top; width:40px; height:9px;}
+#rooms .menu .Swipers .swiper-pagination-bullet-active {background:url(../images/rooms_on.png) no-repeat left top; width:80px; height:9px;}
+#rooms .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {margin:0 0;}
